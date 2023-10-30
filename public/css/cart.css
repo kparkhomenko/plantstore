@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: font;
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+p {
+    font-family: "font";
+}
+
+body {
+    width: 1920px;
+    background-color: #f7f7f7;
+}
+
+.container {
+    width: 1820px;
+    margin-left: auto;
+}
+
+h1 {
+    font-family: "font";
+    font-weight: normal;
+    font-size: 78px;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.cart_item_div {
+    margin-top: 10%;
+    display: flex;
+}
+
+.cart_img_div {
+    width: 257px;
+    height: 326px;
+    background-color: #d3dbe3;
+}
+
+.cart_img_div img {
+    width: 257px;
+    height: 326px;
+}
+
+.cart_item_text {
+    margin-left: 2%;
+}
+
+.cart_item_text p {
+    font-family: "font";
+}
+
+.cart_item_name {
+    font-size: 48px;
+}
+
+.cart_item_description {
+    font-size: 36px;
+    margin-top: 10%;
+}
+
+.price_div {
+    font-size: 48px;
+    position: absolute;
+    margin-left: 75%;
+}
+
+.pay_btn {
+    width: 352px;
+    height: 122px;
+    border: none;
+    border-radius: 10px;
+    background-color: #E3E7EB;
+    font-size: 36px;
+    font-family: "font";
+    position: absolute;
+    margin-top: 9.5%;
+    margin-left: 14%;
+    cursor: pointer;
+}
+
+.delete_btn {
+    width: 352px;
+    height: 122px;
+    border: none;
+    border-radius: 10px;
+    background-color: #E3E7EB;
+    font-size: 36px;
+    font-family: "font";
+    position: absolute;
+    margin-top: 9.5%;
+    margin-left: 70%;
+    cursor: pointer;
+}
+
+footer {
+    margin-top: 10%;
+    height: 287px;
+    background-color: #E3E7EB;
+    display: flex;
+ }
+
+ .logo_footer_div {
+    position: relative;
+    font-size: 60px;
+    font-family: "font";
+    width: 300px;
+    left: 5%;
+ }
+
+ .footer_img {
+    position: relative;
+    left: 8%;
+    top: 3vh;
+ }
+
+ .num {
+    height: 50px;
+    font-size: 36px;
+    font-family: "font";
+    color: #838586;
+    position: relative;
+    top: 50%;
+    left: 10%;
+ }
+
+ .soc {
+    display: flex;
+    margin-left: 25%;
+    margin-top: 5%;
+ }
+
+ .soc_div {
+    margin-left: 40%;
+ }
+
+.lane{
+    height: 1px;
+    width: 250px;
+    background-color: #838586;
+}
+
+hr {
+    border: 1px solid black;
+    margin-top: 4%;
+}

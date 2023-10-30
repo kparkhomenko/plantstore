@@ -1,0 +1,80 @@
+/* .plant {
+    background-color: #E3E7EB;
+    width: 873px;
+    height: 450px;
+}
+
+.div_plant_img {
+    background-color: #D3DBE3;
+    width: 355px;
+    height: 450px;
+}
+
+.div_plant_img img {
+    width: 355px;
+    height: 450px;
+} */
+
+.plant {
+    background-color: #e3e7eb;
+    width: 579px;
+    height: 372px;
+    color: black;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+.div_plant_img {
+    position: relative;
+    top: 3vh;
+    margin-left: 4%;
+    background-color: #d3dbe3;
+    width: 257px;
+    height: 326px;
+}
+
+.div_plant_img img {
+    width: 257px;
+    height: 326px;
+}
+
+.plant_name {
+    position: relative;
+    bottom: 75%;
+    margin-left: 54%;
+    font-size: 32px;
+    width: 256px;
+}
+
+.plant_description {
+    position: relative;
+    bottom: 70%;
+    font-size: 20px;
+    margin-left: 54%;
+}
+
+.plant_price {
+    position: relative;
+    font-size: 32px;
+    margin-left: 54%;
+    bottom: 65%;
+}
+
+.cart_button {
+    position: relative;
+    width: 225px;
+    height: 78px;
+    font-size: 32px;
+    font-family: "font";
+    padding: auto;
+    background-color: #F7F7F7;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 54%;
+    bottom: 50%;
+}
+

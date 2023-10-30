@@ -1,0 +1,72 @@
+.navbar {
+    background-color: #e3e7eb;
+    display: flex;
+    height: 287px;
+    width: 1820px;
+}
+
+.logo_div p {
+    position: relative;
+    font-size: 60px;
+    bottom: 2vh;
+}
+
+.logo_div img {
+    position: relative;
+    left: 10%;
+}
+
+.user {
+    position: relative;
+    top: 7vh;
+    left: 85%;
+}
+
+.logo_div {
+    position: relative;
+    margin-left: 4%;
+    top: 3vh;
+}
+
+.logout {
+    position: relative;
+    top: 7vh;
+    left: 80%;
+}
+
+.admin {
+    position: relative;
+    top: 7vh;
+    left: 60%;
+}
+
+.cart {
+    position: relative;
+    top: 7vh;
+    left: 70%;
+}
+
+.icon_bar {
+    width: 1820px;
+    float: right;
+
+}
+
+/*Я что-то сделал*/
+
+/*ul li {
+    position: relative;
+    text-decoration: none;
+    display: inline;
+    top: 8vh;
+}
+
+li {
+    margin-right: 8%;
+}
+
+li:first-child {
+    margin-left: 55%;
+}
+*/
+

@@ -1,0 +1,21 @@
+@font-face {
+    font-family: font;
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+.comment_item_div {
+	margin-top: 5%;
+	margin-left: 5%;
+}
+
+.comment_user_name {
+	font-size: 64px;
+	font-style: "font";
+}
+
+.comment_user_text {
+	font-size: 40px;
+	font-style: "font";
+	margin-top: 2%;
+	margin-left: 14%;
+}

@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: font;
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+p {
+    font-family: "font";
+}
+
+body {
+    width: 1920px;
+    background-color: #F7F7F7;
+
+}
+
+.container {
+    width: 1820px;
+    margin-left: auto;
+}
+
+.catalogue {
+    margin-top: 10%;
+    background: url('../storage/img/main1.png');
+    height: 1200px;
+}
+
+.catalogue_title {
+    position: relative;
+    margin-left: 10%;
+    top: 30vh;
+    font-size: 52px;
+    width: 829px;
+    font-family: "font";
+}
+
+.catalogue_button {
+    position: relative;
+    margin-top: 25%;
+    margin-left: 15%;
+    width: 504px;
+    height: 108px;
+    border-radius: 50px;
+    font-family: "font";
+    font-size: 40px;
+    background-color: #D3DBE3;
+    border: none;
+    cursor: pointer;
+}
+
+.novelty {
+    margin-top: 10%;
+    font-family: "font";
+    font-size: 52px;
+    margin-left: 10%;
+}
+
+.plants_div {
+  grid-template-columns: 1fr 1fr;
+  display: grid;
+}
+
+.plant {
+    margin-top: 5%;
+}
+
+.info {
+    height: 1247px;
+    background-color: #E3E7EB;
+    border-radius: 57px;
+    margin-top: 10%;
+    display: flex;
+}
+
+.info_div {
+    margin-top: 20%;
+    font-family: "font";
+    margin-left: 10%;
+}
+
+.info_div p {
+    font-size: 40px;
+}
+
+.info_div h1 { 
+    font-size: 78px;
+ }
+
+ .info_text {
+    width: 756px;
+    height: 287px;
+    margin-top: 20%;
+ }
+
+ .info_img_div {
+    margin-left: 3%;
+    margin-top: 10%;
+ }
+
+ .comments {
+    margin-top: 10%;
+    font-family: "font";
+ }
+
+ .comments h1 {
+    font-size: 78px;
+ }
+
+ .comments_div {
+    margin-left: 10%;
+ }
+
+ footer {
+    margin-top: 10%;
+    height: 287px;
+    background-color: #E3E7EB;
+    display: flex;
+ }
+
+ .logo_footer_div {
+    position: relative;
+    font-size: 60px;
+    font-family: "font";
+    width: 300px;
+    left: 5%;
+ }
+
+ .footer_img {
+    position: relative;
+    left: 8%;
+    top: 3vh;
+ }
+
+ .num {
+    height: 50px;
+    font-size: 36px;
+    font-family: "font";
+    color: #838586;
+    position: relative;
+    top: 50%;
+    left: 10%;
+ }
+
+ .soc {
+    display: flex;
+    margin-left: 25%;
+    margin-top: 5%;
+ }
+
+ .soc_div {
+    margin-left: 40%;
+ }
+
+.comments_div2 {
+    margin-top: 2%;
+    user-select: none;
+    margin-left: -5%;
+}
