@@ -20,6 +20,7 @@ return new class extends Migration
             $table->string('category')->nullable;
             $table->string('light')->nullable;
             $table->string('description')->nullable;
+            $table->string('avg_rate')->nullable;
             $table->timestamps();
         });
     }

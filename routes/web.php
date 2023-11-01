@@ -35,7 +35,9 @@ Route::get('mainpage', function () {
 
 Route::get('plant/{id}', function ($id) {
     $plant = Plant::find($id);
-    $comments = Comment::latest()->paginate(3);
+    $comments = Comment::where('comments.plant_id', '=', $plant->id)
+                        ->select('comments.user_login', 'comments.text')
+                        ->latest()->get();
     return view('plantpage', compact('plant', 'comments'));
 });
 Route::get('sendComment', [commentController::class, 'send'])->name('sendComment');
@@ -63,7 +65,11 @@ Route::get('cart/{id}', function ($id) {
     if (Auth::check()) {
         if (Auth::user()->id == $id) {
             $user = Auth::user()->id;
-            $cart_items = DB::select("SELECT plants.*, carts.id AS 'cart_id' FROM `carts` left join plants ON plants.id = carts.plant_id WHERE plants.id = carts.plant_id AND carts.user_id = $user  order by plants.id;");
+            // $cart_items = DB::select("SELECT plants.*, carts.id AS 'cart_id' FROM `carts` left join plants ON plants.id = carts.plant_id WHERE plants.id = carts.plant_id AND carts.user_id = $user  order by plants.id;");
+            $cart_items = Cart::join('users', 'users.id', '=', 'carts.user_id')
+                                ->join('plants', 'plants.id', '=', 'carts.plant_id')
+                                ->select('plants.name', 'plants.price', 'plants.path', 'plants.description')
+                                ->get();
             return view('cart', compact('user', 'cart_items'));
         } 
         return redirect('mainpage');

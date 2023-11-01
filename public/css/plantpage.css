@@ -227,3 +227,22 @@ textarea {
  	text-align: center;
  	font-weight: normal;
  }
+
+.comment_write_rate_div {
+	display: flex;
+	white-space: nowrap;
+}
+
+ .comment_write_rate_div1 {
+	position: relative;
+	margin-left: 65%;
+	width: 400px;
+ }
+
+  .comment_write_rate_div1 button {
+	border: none;
+	background-color: #F7F7F7;
+	cursor: pointer;
+	margin-left: 5%;
+	
+  }

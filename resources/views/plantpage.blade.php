@@ -52,7 +52,16 @@
 	<div class="comment_div">
 		<h1 class="comment_div_title">Что вы думаете об этом товаре?</h1>
 		<div class="comment_write">
+            <div class="comment_write_rate_div">
 			<p>Ваша оценка</p>
+            <div class="comment_write_rate_div1">
+                <button value="1"><img src="{{ asset('storage/img/emptystar.png') }}" alt=""></button>
+                <button value="2"><img src="{{ asset('storage/img/emptystar.png') }}" alt=""></button>
+                <button value="3"><img src="{{ asset('storage/img/emptystar.png') }}" alt=""></button>
+                <button value="4"><img src="{{ asset('storage/img/emptystar.png') }}" alt=""></button>
+                <button value="5"><img src="{{ asset('storage/img/emptystar.png') }}" alt=""></button>
+            </div>
+            </div>
 			<textarea id="comment" name="comment" cols="30" rows="10" placeholder="Здесь мог бы быть ваш текст"></textarea>
 			<button onclick="getComment('{{ $plant->id }}')" class="comment_btn" id="comment_btn">Отправить отзыв</button>
 			<div id="error_container"></div>
