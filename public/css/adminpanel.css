@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: font;
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+p {
+    font-family: "font";
+}
+
+body {
+    width: 1920px;
+    background-color: #F7F7F7;
+
+}
+
+.container {
+    width: 1820px;
+    margin-left: auto;
+}
+
+.add_plant_btn {
+	width: 520px;
+	height: 122px;
+	border: none;
+	border-radius: 10px;
+	background-color: #D3DBE3;
+	font-size: 36px;
+	margin-left: 33%;
+	margin-top: 10%;
+	cursor: pointer;
+}
+
+.plants_list_title {
+	text-align: center;
+	font-size: 78px;
+	margin-top: 10%;
+}
+
+.plants_div {
+  grid-template-columns: 1fr 1fr;
+  display: grid;
+  margin-left: 13%;
+}
+
+.plant {
+    margin-top: 30%;
+}
+
+.plants_div a {
+	padding: none;
+}
+
+.delete_plant_btn {
+	width: 520px;
+	height: 122px;
+	border: none;
+	border-radius: 10px;
+	background-color: #D3DBE3;
+	font-size: 36px;
+	cursor: pointer;
+	position: relative;
+	top: -14vh;
+	left: 5%;
+}

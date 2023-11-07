@@ -1,0 +1,68 @@
+.navbar {
+    background-color: #e3e7eb;
+    display: flex;
+    height: 287px;
+    width: 1820px;
+}
+
+.logo_div p {
+    position: relative;
+    font-size: 60px;
+    bottom: 2vh;
+}
+
+.logo_div img {
+    position: relative;
+    left: 10%;
+}
+
+.user {
+    position: absolute;
+    top: 7vh;
+    left: 86%;
+}
+
+.logo_div {
+    position: relative;
+    margin-left: 4%;
+    top: 3vh;
+}
+
+.logout {
+    position: absolute;
+    top: 7vh;
+    left: 86%;
+}
+
+.admin {
+    position: absolute;
+    top: 7vh;
+    left: 58%;
+}
+
+.cart {
+    position: absolute;
+    top: 7vh;
+    left: 72%;
+}
+
+
+
+/*Я что-то сделал*/
+
+/*ul li {
+    position: relative;
+    text-decoration: none;
+    display: inline;
+    top: 8vh;
+}
+
+li {
+    margin-right: 8%;
+}
+
+li:first-child {
+    margin-left: 55%;
+}
+*/
+

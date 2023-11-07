@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: font;
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+p {
+    font-family: "font";
+}
+
+body {
+    width: 1920px;
+    background-color: #F7F7F7;
+
+}
+
+.container {
+    width: 1820px;
+    margin-left: auto;
+}
+
+.plants_div {
+  grid-template-columns: 1fr 1fr;
+  display: grid;
+  margin-left: 10%;
+  margin-top: 5%;
+}
+
+.plant {
+    margin-top: 5%;
+}
+
+.search_bar {
+	width: 550px;
+	height: 100px;
+	border-radius: 57px;
+	border: none;
+	padding-left: 17%;
+	font-family: "font";
+	font-size: 40px;
+}
+
+.loup {
+	position: relative;
+	left: 2%;
+	top: 10vh;
+}
+
+.search_div {
+	position: absolute;
+	margin-top: -15%;
+	margin-left: 18%;
+}
+
+#no_result {
+	text-align: center;
+	font-size: 40px;
+	margin-top: 5%;
+}
+
+.filters_title {
+	text-align: center;
+	font-size: 64px;
+}
+
+.filters_div {
+	margin-top: 10%;
+}
+
+.filters_div1 {
+	background-color: #E3E7EB;
+	height: 510px;
+	border-radius: 57px;
+	margin-top: 3%;
+	grid-template-columns: 1fr 1fr 1fr;
+	display: grid;
+}
+
+.filters_div1 p {
+	font-size: 48px;
+}
+
+.checkbox_div {
+	display: flex;
+	margin-top: 5%;
+	margin-left: 5%;
+}
+
+.checkbox_div input {
+	width: 50px;
+	height: 50px;
+}
+
+.checkbox_div p {
+	margin-left: 4%;
+}
+
+.category_div_title {
+	text-align: center;
+}
+
+.category_grid {
+	margin-top: 5%;
+}
+
+.delete_plant_btn {
+    opacity: 0;
+}
